@@ -250,7 +250,7 @@ if __name__ == '__main__':
     
     print(len(cells))
     
-    exit()
+    # exit()
     saver = torch.save(cells)
 
     optimizer = torch.optim.Adam(learning_rate=5e-2)
